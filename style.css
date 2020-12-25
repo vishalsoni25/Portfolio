@@ -1,0 +1,227 @@
+body {
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+	position: fixed;
+	
+	
+	background: #040b14;
+	width: 300px;
+	height: 100vh;
+	transform: translateX(-95%);
+}
+header.active {
+    transform: translateX(0%);
+}
+button {
+    background: #040b14;
+    color: white;
+    border: 1px solid #008800;
+    font-size: 30px;
+    padding: 5px 5px 5px 5px;
+    position: fixed;
+    top: 5px;
+    left: 20px;
+    transition: transform 0.2s ease-in-out;
+
+}
+button.active {
+    transform: translateX(755%);
+}
+header img {
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	margin: 20px 90px 70px;
+	border: 5px solid #153a6a;
+}
+header a {
+	color: white;
+	
+	border-radius: 100%;
+	
+}
+a:hover {
+	background-color: white;
+	color: #123554;
+}
+header .nav a {
+	text-decoration: none;
+}
+header h1{
+	 text-shadow: 2px 2px 8px #66c2ff;
+	padding-left: 75px;
+	margin-top: -60px;
+	font-size: 30px;
+}
+header ul {
+	list-style: none;
+	display: flex;
+
+	padding-right: 10px;
+	font-size: 30px;
+	margin-left: 10px;
+}
+li {
+	padding: 5px;
+	
+	padding-right: 20px;
+}
+.dark {
+	color: white;
+}
+.nav ul{
+	list-style: none;
+	display: block;
+
+}
+.nav li {
+	color:  #999999;
+	display: flex;
+	padding-bottom: 10px;
+	font-size: 20px;
+}
+.nav .icon {
+	padding-right: 20px;
+}
+.nav li:hover {
+	color: white;
+
+	cursor: pointer;
+}
+.nav .icon:hover {
+	color: blue;
+}
+
+.copy {
+	padding-left: 55px;
+	padding-top: 50px;
+	color: white;
+}
+
+section {
+	width: 100%;
+	height: 100vh;
+	padding-top: 100px;
+	background: url("hero-bg1.jpg") center;
+
+}
+
+.fontdisplay {
+	color: white;
+	text-align: center;
+	position: absolute;
+	left: 310px;
+	top: 230px;
+	border-radius: 10%;
+	padding-top: 10px;
+	background-color: black;
+	opacity: .8;
+	font-size: 70px;
+	width: 410px;
+}
+.fontdisplay h6{
+	padding-top: -10px;
+	font-size: 18px;
+}
+#about {
+   background: white;
+   padding-top: 96px;
+   padding-left: 20px;
+   padding-bottom: 66px;
+   
+   display:flex;
+}
+#about .dp {
+	display: flex;
+}
+#about ul {
+	list-style: none;
+}
+#bout .icon {
+	color: #040b14;
+}
+#about .bio {
+	margin-left: 310px;
+	font-family: sans-serif
+}
+#about .heading {
+	color: #040b14;
+	font-size: 30px;
+	text-decoration: underline;
+}
+#resume {
+   padding-left: 330px;
+
+   color: white;
+   background-color: #040b14;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+   display: flex;
+}
+#resume .do{
+   color:  #737373;
+   
+
+}
+#resume .edu {
+   padding-left: 80px;
+}
+
+#work {
+	padding-left: 330px;
+   padding-top: 30px;
+   color: #040b14;
+   padding-bottom: 30px;
+   
+   
+   display: flex;
+}
+#work .Detail{
+   padding-left: 150px;
+
+}
+#work .do{
+   color:  #737373;
+   }
+#skill {
+	padding-left: 330px;
+   background: #040b14;
+   color: white;
+   display: flex;
+  
+}
+#skill .Detail {
+   width: 600px;
+   padding-left: 150px;
+}
+#workss {
+	padding-left: 330px;
+   color: #040b14;
+   padding-top: 20px;
+   font-size: 30px;
+   background-color: #bfbfbf; 
+}
+#workss .pro {
+	display: flex;
+	padding-left: 20px;
+}
+#workss .items {
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+#workss img {
+	
+	width: 300px;
+
+	height: 200px;
+
+}
